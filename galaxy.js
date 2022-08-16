@@ -127,7 +127,7 @@ async function checkmail(){
         method: 'GET',
         url: 'https://privatix-temp-mail-v1.p.rapidapi.com/request/mail/id/'+hash+'/',
         headers: {
-          'X-RapidAPI-Key': 'cb478e4aeamsh4275e9f1643f3dap13779djsnf074196861ab',
+          'X-RapidAPI-Key': 'rapid-api-key',
           'X-RapidAPI-Host': 'privatix-temp-mail-v1.p.rapidapi.com'
         }
       };
